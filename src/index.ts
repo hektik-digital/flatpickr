@@ -2313,9 +2313,9 @@ function FlatpickrInstance(
       if (selectedIndex) self.selectedDates.splice(parseInt(selectedIndex), 1);
       else self.selectedDates.push(selectedDate);
     } else if (self.config.mode === "range") {
-      if (self.selectedDates.length === 2) {
-        self.clear(false, false);
-      }
+//       if (self.selectedDates.length === 2) {
+//         self.clear(false, false);
+//       }
       self.latestSelectedDateObj = selectedDate;
       self.selectedDates.push(selectedDate);
 
